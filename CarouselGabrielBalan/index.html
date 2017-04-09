@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SlideShow FiiPractic</title>
+	<link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body onload="createDots(); dotClick()">
+	<div id="carouselFather">
+		<div class="carousel">
+			<img src="img/slide1.jpg" id="slideshow" alt="slideshow"><br />
+
+			<div id="caption">
+				ROME, ITALY: THE ETERNAL CITY
+			</div>
+
+			<a href="#" onclick="changeImage(-1);reset(); return false;" id="previous">&#10094;</a>
+			<a href="#" onclick="changeImage(1);reset(); return false;" id="next">&#10095;</a>
+		</div>
+		<div id="dots">
+			
+		</div>
+    </div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
