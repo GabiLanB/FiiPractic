@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Calculator JavaScript>
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Balan Adrian Gabriel">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="container">
+		<form name="calculator">
+			<input type="text" name="answer" id="answer"/>
+			<br />
+
+			<input type="button" value=" 1 " onclick="document.querySelector('#answer').value += '1'" />
+			<input type="button" value=" 2 " onclick="document.querySelector('#answer').value += '2'" />
+			<input type="button" value=" 3 " onclick="document.querySelector('#answer').value += '3'" />
+			<input type="button" value=" + " onclick="document.querySelector('#answer').value += '+'" />
+			<br />
+			<input type="button" value=" 4 " onclick="document.querySelector('#answer').value += '4'" />
+			<input type="button" value=" 5 " onclick="document.querySelector('#answer').value += '5'" />
+			<input type="button" value=" 6 " onclick="document.querySelector('#answer').value += '6'" />
+			<input type="button" value=" - " onclick="document.querySelector('#answer').value += '-'" />
+			<br />
+			<input type="button" value=" 7 " onclick="document.querySelector('#answer').value += '7'" />
+			<input type="button" value=" 8 " onclick="document.querySelector('#answer').value += '8'" />
+			<input type="button" value=" 9 " onclick="document.querySelector('#answer').value += '9'" />
+			<input type="button" value=" X " onclick="document.querySelector('#answer').value += '*'" />
+			<br />
+			<input type="button" value=" C " onclick="document.querySelector('#answer').value = ''" />
+			<input type="button" value=" 0 " onclick="document.querySelector('#answer').value += '0'" />
+			<input type="button" value=" = " onclick="document.querySelector('#answer').value = eval(document.querySelector('#answer').value)" />
+			<input type="button" value=" / " onclick="document.querySelector('#answer').value += '/'" />
+			<br />
+		</form>
+	</div>
+
+
+<script src="script.js"></script>
+<body>
+</html>

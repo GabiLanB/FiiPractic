@@ -1,0 +1,36 @@
+*{
+	border: none;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f5f5f5;
+}
+form{
+	background-color: #666;
+	width: 265px;
+	padding: 5px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px black;
+}
+input[type="text"]{
+	width: 240px;
+	padding: 5px;
+	margin: 5px;
+	text-align: right;
+	font-weight: bold;
+}
+input[type="button"]{
+	width: 50px;
+	padding: 5px;
+	margin: 5px;
+	font-weight: bold;
+	box-shadow: 3px 3px 0 black;
+
+}
+input[type="button"]:active{
+	box-shadow: none;
+	position: relative;
+	right: -3px;
+	bottom: -3px;
+}
+input[type="button"] {outline:0;}
